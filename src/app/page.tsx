@@ -5,7 +5,8 @@ import 'remixicon/fonts/remixicon.css'
 import 'boxicons/css/boxicons.min.css'
 import 'public/scss/style.scss'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config } from "@fortawesome/fontawesome-svg-core";
 import Topbar from './components/home/topbar'
 import Hero from './components/home/hero'
 import Header from './components/home/header'
@@ -22,6 +23,7 @@ import Contact from './components/home/contact'
 import Faq from './components/home/faq'
 import Gallerie from './components/home/gallerie'
 
+config.autoAddCss = false;
 
 export default function Home() {
   return (

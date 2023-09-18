@@ -61,7 +61,6 @@ const Appointment = () => {
           </div>
           <div className="text-center"><button type="submit">Make an Appointment</button></div>
         </form>
-
       </div>
     </section>
     );
